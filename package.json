@@ -1,21 +1,21 @@
 {
-	"name": "parcel-project-template",
+	"name": "hellen",
 	"version": "2.0.0",
 	"description": "",
-	"homepage": "https://AnyaNass.github.io/Repeta-followers",
+	"homepage": "https://Vitaliy-Danilchik.github.io/hellen",
 	"scripts": {
 		"start": "parcel src/*.html",
-		"build": "parcel build src/*.html --public-url /Repeta-followers/"
+		"build": "parcel build src/*.html --public-url /hellen/"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/goitacademy/parcel-project-template.git"
+		"url": "git+https://github.com/Vitaliy-Danilchik/hellen.git"
 	},
 	"keywords": [],
-	"author": "Alexander Repeta <alexander.repeta@gmail.com>",
+	"author": "Vitaliy-Danilchik",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/goitacademy/parcel-project-template/issues"
+		"url": "https://github.com/Vitaliy-Danilchik/hellen/issues"
 	},
 	"dependencies": {
 		"modern-normalize": "^1.1.0"
