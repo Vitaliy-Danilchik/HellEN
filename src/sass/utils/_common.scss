@@ -6,7 +6,14 @@ body {
 	color: var(--main-text-color);
 	background-color: var(--main-bgd-color);
 	letter-spacing: 0.08em;
-	user-select: none;
+	background-image: url('../images/hero/wave-bg.svg');
+	background-position: 0 450px;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	@media (min-width: 768px) {
+		background-position: top center;
+	}
 
 	&.no-scroll {
 		overflow: hidden;
@@ -30,13 +37,18 @@ body {
 	}
 }
 
+.main {
+	overflow: hidden;
+}
+
 // Для кнопки клас .button та модифікатор .button--header
 .button {
-	min-width: 260px;
-	padding: 14px 0;
+	width: 260px;
+	padding: 17px 0;
 
 	background-color: var(--accent);
 	border: 2px solid transparent;
+	text-align: center;
 
 	color: var(--light-text-color);
 	text-transform: uppercase;
@@ -59,12 +71,12 @@ body {
 		border-color: var(--accent);
 	}
 
-	@media (min-width: 1366px) {
-		min-width: 354px;
-		height: 70px;
+	@media (min-width: 768px) {
+		padding: 14px 0;
 	}
 
 	@media (min-width: 1366px) {
+		padding: 27px 0;
 		min-width: 354px;
 	}
 
@@ -78,6 +90,12 @@ body {
 			color: var(--light-text-color);
 			background-color: var(--accent);
 			border-color: transparent;
+		}
+
+		@media (min-width: 768px) {
+			padding: 15px 0;
+			font-size: 14px;
+			line-height: calc(17 / 14);
 		}
 
 		@media (min-width: 1366px) {
